@@ -1,7 +1,7 @@
-img{
+img{ 
 }
 .test{
-  background-color: #00e1ff;
+  background-color: #fffafa;
      font-size: 20;
      list-style-position: inside;
 border-color: black;
@@ -14,11 +14,8 @@ border-radius: 10px;
 .coolcolor{
   color: cyan;
  }
-:root {
-  --blue:#2ab7ca
-
-}
-
+.images {margin-left:25%;  ;
+      }
 }
 
 

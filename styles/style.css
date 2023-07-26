@@ -1,7 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Handjet:wght@300&family=Indie+Flower&family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Handjet:wght@300&family=Indie+Flower&family=Kablammo&family=REM&family=Roboto:wght@300&display=swap');
+
+main{ height:650px; 
+    background-color: #2e2e2e;}
+
+:root {
+  --background1 :#121212
+}
 
 * {
-    font-family: 'Kablammo', cursive;
+    font-family: 'Roboto', cursive;
     margin: 0;
     padding: 0;
     font-size: 1.1rem;
@@ -25,7 +32,7 @@ header {
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: white;
+    background-color: #808080;
     font-weight: 300;
     padding: 15px;
     justify-content: center;
@@ -45,7 +52,7 @@ header ul {
 
 header li a {
     text-decoration: none;
-    color: black;
+    color: #ffffff;
     font-size: 1.2rem;
 }
 
@@ -61,7 +68,7 @@ header li :hover {
 
 .content {
     padding: 74px 50px;
-    background-color: #f7f7f7;
+    background-color: #2e2e2e;
     display: flex;
     gap: 35px;
     flex-wrap: wrap;
@@ -70,8 +77,8 @@ header li :hover {
 
 .card {
     width: 28%;
-    background-color: white;
-    color: #1e2d2fe8;
+    background-color: var(--background1);
+    color: #000000e8;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
