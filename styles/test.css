@@ -1,5 +1,4 @@
-img{ 
-}
+
 .test{
   background-color: #fffafa;
      font-size: 20;
@@ -14,8 +13,11 @@ border-radius: 10px;
 .coolcolor{
   color: cyan;
  }
-.images {margin-left:25%;  ;
-      }
+.images {
+  display: block;
+  margin: 0 auto ;
 }
+      
+
 
 

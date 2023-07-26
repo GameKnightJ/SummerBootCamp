@@ -1,10 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Handjet:wght@300&family=Indie+Flower&family=Kablammo&family=REM&family=Roboto:wght@300&display=swap');
 
-main{ height:650px; 
+main{ 
     background-color: #2e2e2e;}
 
 :root {
   --background1 :#121212
+}
+
+.test{
+  background-color: #fffafa;
+     font-size: 20;
+     list-style-position: inside;
+border-color: black;
+border-radius: 10px; 
 }
 
 * {
