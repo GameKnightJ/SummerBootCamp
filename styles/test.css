@@ -1,10 +1,4 @@
 
-.test{
-  background-color: #fffafa;
-     font-size: 20;
-     list-style-position: inside;
-border-color: black;
-border-radius: 10px; 
 
 }
 .centerlist{
@@ -17,7 +11,10 @@ border-radius: 10px;
   display: block;
   margin: 0 auto ;
 }
+
+.videos{ width: 500px; height: 400px;
       
+        margin: 0 auto ;}
 
 
 
